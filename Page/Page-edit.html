@@ -2,38 +2,37 @@
 <html>
 <head>
 
-<title>Page List</title>
+<title>Page Edit</title>
 
 <!-- Mobile Code -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
-	 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-	 <meta name="viewport" content="initial-scale=1.25, user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="viewport" content="initial-scale=1.25, user-scalable=no">
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
 <!-- font awesome css -->
-<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
 <!-- My CSS -->
-<link rel="stylesheet" type="text/css" href="../Style.css">
+  <link rel="stylesheet" type="text/css" href="../Style.css">
 
 	</head>
 	<body>
 	<!-- 	top nav -->
-<nav class="navbar navbar-light" style="background-color: #EEECE8;>
+<nav class="navbar navbar-light taPage-navcolor fixed-top">
+  <a href="Page-List.html"><i class="fas fa-chevron-left ta-font-black"></i></a>
+  <div class="ta-width2">
+  <a href="#" class="navbar-brand float-left"><b class="ta-font-black">Page Edit</b></a>
+  </div>
+  <a class="ta-font-black" href="Page-List.html"><i class="fas fa-check"></i></a>
 
-	<a class="ta-font-white" href="Profile.html"><i class="fas fa-chevron-left"></i></a>
-
-	<a class="navbar-brand"href="#"><p class="ta-title-left">Edit Page</p></a>
-
-	<a class="ta-font-white"href="Website New"><i class="fas fa-plus"></i></a>
-	
 </nav>
 
 <form>
-
+<div class="container-fluid">
   <div class=form-group>
   <LABEL class="font-weight-bold">Name</LABEL>
   </div>
@@ -51,12 +50,13 @@
     <input type="text" name="Title" 
    class="form-control">
   </div>
-  	<a class="btn btn-outline-danger btn-block"href="#">Delete</a>
+  <br>
+  	<a class="btn btn-outline-danger btn-block" href="Page-List.html">Delete</a>
 <!-- bottom nav -->
 
-<nav class="navbar navbar-light" style="background-color: #EEECE8fixed-bottom">
-		<div class="ta-width"><a class="float-right" href="#">
-	<i class="fas fa-user ta-font-white"></i>
+<nav class="navbar navbar-light taPage-navcolor fixed-bottom">
+		<div class="ta-width"><a class="float-right" href="../User/Profile.html">
+	<i class="fas fa-user ta-font-black"></i>
 </a></div>
 
 
