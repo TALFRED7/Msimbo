@@ -1,0 +1,70 @@
+
+
+// //(1)1 to n
+// function printInt(n){
+// for (var i=1; i<=n; ++i){
+// return ('<br>' + i + '<br>')
+// 	}
+// }
+// document.write(printInt(10));
+
+// //page break
+// document.write('<br>'+'<br>')
+
+//(2)n to 1
+// function printIntRev(n){
+// 	for (var i = 1; i<=n ;--n){ 
+		
+// return['<br>' + n + '<br>']
+// 	}
+// }
+// printIntRev(10);
+
+
+// (3)checkInput of x- working version
+// function checkInput(x,value){
+// 	var i= typeof(x);
+// 	if ( i == null) {
+// 		return -1;
+// 	} else if (i !== null ){
+// 		return typeof(x);
+// 	}
+
+// };
+
+// console.log(checkInput());
+// document.write(checkInput(1));
+
+// //(4)simpleEvenAdding
+
+//  function simpleEvenAdding(x){
+//  	var i = 0
+//  	var result = 0;
+// 	for(; i<=x; i+=2){
+// 	 	result+=i  ;
+// 	}
+// 	return result;
+// }
+
+// console.log(simpleEvenAdding(5))
+
+//(5)capitalLetter
+
+// function capitalize(str){
+// 	var titled = str.toLowerCase().split(' ').map(function(elem) {
+// 		return elem[0].toUpperCase() + elem.slice(1)
+// 	})
+// 	return titled.join(' ');
+// }
+// document.write(capitalize('this is another way i hope it works'));
+
+
+//(6)simpleReverse
+
+// function reverseLetters(str){
+// 	var reverse= str.split('').reverse().join('');
+// {
+// 	return reverse
+// }
+// }
+// document.write(reverseLetters('I Love Code'))
