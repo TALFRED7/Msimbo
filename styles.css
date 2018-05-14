@@ -1,0 +1,51 @@
+body{
+	padding-top: 70PX;
+	padding-bottom:70px
+}
+
+.ta-font-white
+{color: white}
+
+.ta-width
+{width: 100%}
+
+/*width for navbar title*/
+.ta-width2
+{width:90%;}
+
+.ta-font-black
+{color: black}
+
+.ta-width3
+{width: 50%}
+
+.ta-navpadding
+{padding-left: 20px;
+padding-right: 20px}
+
+.ta-noline:hover
+{text-decoration: none}
+
+.ta-width4
+{width:100%}
+
+.taPage-navcolor
+{background-color: #e3f2fd}
+
+.ta-absolute-right
+{position: absolute;
+right: 15px;}
+
+.ta-front{z-index: 2}
+
+.ta-marquee {
+    position: absolute;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 4s linear;
+}
+
+@-webkit-keyframes rightThenLeft {
+    0%   {left: 0%;}
+    50%  {left: 100%;}
+    100% {left: 0%;}
+}

@@ -1,0 +1,34 @@
+
+	<!-- 	top nav -->
+	<nav class="navbar navbar-light taPage-navcolor fixed-top">
+  		<a href="../Page/Page-List.html"><i class="fas fa-chevron-left ta-font-black"></i></a>
+  		<div class="ta-width2">
+  			<a href="#" class="navbar-brand float-left"><b class="ta-font-black">Widget Edit</b></a>
+  		</div>
+  		<a class="ta-font-black" routerLink="user/:uid/website/:wid/page/:pid/widget/new"><i class="fas fa-check"></i></a>
+	</nav>
+	<!-- form -->
+	<div class="container-fluid">
+		<form class="form-group">
+			 <label><b>Name</b></label>
+			 <input class="form-control" type="text" name="Name">
+			 	 <label><b>Text</b></label>
+			 <input class="form-control" type="text" name="Text">	 <label><b>URL</b></label>
+			 <input class="form-control" type="text" name="URL" placeholder="www.google.com">
+			 <label><b>Width</b></label>
+			 <input class="form-control" type="text" name="Size" placeholder="10%">
+			 <label><b>Upload</b></label>
+			 <input class="form-control" type="file" name="Upload">
+
+			<br>
+				<a class="btn btn-outline-primary btn-block" routerLink="#">Upload</a>
+				<a class="btn btn-outline-danger btn-block" routerLink="#">Delete</a>
+		</form>
+	</div>
+
+<!-- footer -->
+<nav class="navbar navbar-light taPage-navcolor fixed-bottom">
+		<div class="ta-width4">
+			<a class="float-right" routerLink="user/:uid"><i class="fas fa-user ta-font-black"></i></a>
+		</div>
+</nav>

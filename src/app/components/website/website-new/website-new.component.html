@@ -1,0 +1,94 @@
+
+	<nav nav class="row navbar navbar-dark bg-primary fixed-top">
+			<!-- leftnav -->
+			<div class="col-sm-4 d-none d-sm-block">
+				<div class="container-fluid">
+					<a class="ta-font-white" routerLink="user/:uid/website"><i class="fas fa-chevron-left"></i></a>
+					<a class=" ta-font-white ta-noline ta-navpadding" routerLink="user/:uid/website"><b>Websites</b></a>
+					<a routerLink="user/:uid/websitel"><i class="ta-font-white fas fa-plus"></i></a>
+				</div>
+			</div>
+
+			<!-- rightnav -->
+			<div class="col-sm-8">
+				<div class="container-fluid">
+					<a routerLink="user/:uid/website/new" class="ta-noline"><b class="ta-font-white">New Website</b></a>
+					<a routerLink="user/:uid/website" class="ta-font-white"><i class="fas fa-check float-right"></i></a>
+				</div>
+			</div>
+		</nav>
+		<!-- leftside list -->
+	<div class="row">
+	<div class="col-sm-4 d-none d-sm-block">
+	<div class="container-fluid">
+	<ul class="list-group">
+	<li class="list-group-item d-flex justify-content-between align-items-center">
+	<a routerLink="user/:uid/website/:wid/page">Blogging App
+	</a>
+	
+	<a routerLink="user/:uid/website/:wid">
+	<i class="fas fa-cog"></i></a>
+	</li>
+
+	<ul class="list-group">
+	<li class="list-group-item d-flex justify-content-between align-items-center">
+
+	<a routerLink="Page-List.html">Address Book App
+	</a>
+
+	<a href="user/:uid/website/:wid/page">
+	<i class="fas fa-cog"></i></a>
+	</li>
+	
+	<ul class="list-group">
+	<li class="list-group-item d-flex justify-content-between align-items-center">
+	<a routerLink="user/:uid/website/:wid/page">Script Testing
+	</a>
+	
+	<a routerLink="user/:uid/website/:wid">
+	<i class="fas fa-cog"></i></a>
+	</li>
+	
+<ul class="list-group">
+	<li class="list-group-item d-flex justify-content-between align-items-center">
+	<a routerLink="user/:uid/website/:wid/page">
+	Blogger
+	</a>
+
+	<a routerLink="user/:uid/website/:wid">
+	<i class="fas fa-cog"></i></a>
+	</li>
+</ul>	
+			
+
+
+<!-- rightside form -->
+<div class="col-sm-8">
+<div class="container-fluid">
+		<form>
+			<div class="form-group">
+				<label><b>Name</b></label>
+				<input class="form-control" type="text" name="website-name" placeholder="Website Name">
+			</div>
+			<div class="form-group">
+				<label><b>Description</b></label>
+				<textarea class="form-control"
+				rows="5" placeholder="Brief Website Description"></textarea>		
+		</div>	
+		</form>
+</div>	
+</div>
+
+
+
+
+
+
+<!-- bottom nav -->
+
+<nav 
+class="navbar navbar-dark bg-primary fixed-bottom">
+	<div class="ta-width">
+		<a class="float-right" routerLink="user/:uid">
+		<i class="fas fa-user ta-font-white"></i>
+		</a>
